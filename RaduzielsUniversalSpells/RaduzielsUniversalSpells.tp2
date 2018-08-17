@@ -1,6 +1,6 @@
-BACKUP ~UniversalSpells/Backup~
+BACKUP ~RaduzielsUniversalSpells/Backup~
 AUTHOR ~Raduziel~
-VERSION ~2.7~
+VERSION ~2.8~
 
 BEGIN ~Universal Wizard Spells~
 
@@ -382,6 +382,8 @@ COPY_EXISTING ~SCRL6V.itm~ override   //Lower Resistance
 WRITE_BYTE 0x2d (THIS BAND 0b11000000)
 WRITE_BYTE 0x2f (THIS BAND 0b00111111)
 
+ACTION_IF GAME_INCLUDES ~sod~ BEGIN
+
 COPY_EXISTING ~SCRL7F.itm~ override   //Globe of Invulnerability
 WRITE_BYTE 0x2d (THIS BAND 0b11000000)
 WRITE_BYTE 0x2f (THIS BAND 0b00111111)
@@ -389,6 +391,8 @@ WRITE_BYTE 0x2f (THIS BAND 0b00111111)
 COPY_EXISTING ~SCRL7U.itm~ override   //Contingency
 WRITE_BYTE 0x2d (THIS BAND 0b11000000)
 WRITE_BYTE 0x2f (THIS BAND 0b00111111)
+
+END
 
 END
 

@@ -1,6 +1,6 @@
 BACKUP ~RaduzielsUniversalSpells/Backup~
 AUTHOR ~Raduziel~
-VERSION ~2.8~
+VERSION ~2.9~
 
 BEGIN ~Universal Wizard Spells~
 
@@ -11,6 +11,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_IDENTIFY~	RET	spell_res	
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -21,6 +22,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_FIND_FAMILAR~	RET	spell_
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -31,6 +33,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_KNOCK~	RET	spell_res	END
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -41,6 +44,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_VOCALIZE~	RET	spell_res	
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -51,6 +55,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_TRUE_DISPEL_MAGIC~	RET	s
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -61,6 +66,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_DIMENSION_DOOR~	RET	spel
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -71,6 +77,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_MINOR_GLOBE_OF_INVULNERA
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -81,6 +88,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_REMOVE_CURSE~	RET	spell_
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -91,6 +99,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_GREATER_MALISON~	RET	spe
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -101,6 +110,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_ENCHANTED_WEAPON~	RET	sp
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -111,6 +121,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_MINOR_SEQUENCER~	RET	spe
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -121,6 +132,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_EYE~	RET	spell_res	END
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -131,6 +143,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_LOWER_RESISTANCE~	RET	sp
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -141,6 +154,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_GLOBE_OF_INVULNERABILITY
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -151,6 +165,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_CONTINGENCY~	RET	spell_r
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -161,6 +176,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_SPELL_SEQUENCER~	RET	spe
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -171,6 +187,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_SPELL_TRIGGER~	RET	spell
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
@@ -181,6 +198,7 @@ LAF 	RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_CHAIN_CONTINGENCY~	RET	s
 
 COPY_EXISTING	~%spell_res%.spl~	~override~
 WRITE_LONG 0x001e 0
+WRITE_BYTE 0x0025 9
 
 END 
 
